@@ -15,23 +15,33 @@ body {
   background-color: black;
   position: relative;
 }
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .main-header {
   width: 100vh;
   height: 60vh;
   margin: 0 auto;
 }
-img {
-  width: 40%;
-  margin-left: 25%;
-  margin-top: 2%;
-  position: sticky;
+.main-logo{
+ position: sticky;
+margin-top: 2%;
+width: 100%;
+text-align: center;
+}
+img{
+    width: 40%;
 }
 .main {
   border: 5px solid black;
   border-width: 25px;
   width: 40vw;
   height: 15vh;
-  margin-left: 25%;
+ 
   margin-top: 100px;
   background-color: #cecdcd;
   opacity: 0.7;
@@ -40,33 +50,38 @@ img {
 
 .menu {
   width: 40vw;
-  height: 50vh;
-  margin-left: 25%;
+  height: 45vh;
   margin-top: 100px;
 font-size: 100px;
   background-color: #cecdcd;
   opacity: 0.8;
-  padding: 100px 500px;
-/*   line-height: 1.4; */
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 label {
-  width: 70%;
+ 
   background-color: #1a1919;
   color: aliceblue;
   text-align: left;
-
+margin-bottom: -35px;
   display: block;
 font-size: 50px;
+
 }
 input {
-  width: 70%;
-  height: 100px;
+  width: 100%;
+  height: 140px;
   margin: 2rem auto;
   font-size: 50px;
+font-style: italic;
+padding-left: 20px;
 }
 button {
   background-color:#1a1919 ;
-  width: 70%;
+  width: 100%;
   height: 10rem;
   display: block;
   font-size: 50px;
@@ -83,8 +98,22 @@ h1 {
 }
 
 h2 {
-  padding-bottom: 140px;
+ margin-bottom: 90px;
+  margin-top: 70px;
 }
 .get{
-    padding-bottom: 100px;
+    padding-bottom: 90px;
+    font-size: 90px;
+    text-align: left;
 }
+form{
+        width: 40%;
+        margin-top: 2%;
+       }
+       footer{
+           font-size:70px;
+           height: 5%;
+           color: aliceblue;
+           opacity: 0.2;
+           text-align: center;
+       }
