@@ -15,34 +15,32 @@ body {
   background-color: black;
   position: relative;
 }
-.main-container{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .main-header {
   width: 100vh;
   height: 60vh;
   margin: 0 auto;
 }
-.main-logo{
- position: sticky;
-margin-top: 2%;
-width: 100%;
-text-align: center;
+.main-logo {
+  position: sticky;
+  margin-top: 2%;
+  width: 100%;
+  text-align: center;
 }
-img{
-    width: 40%;
+img {
+  width: 40%;
 }
 .main {
   border: 5px solid black;
   border-width: 25px;
   width: 40vw;
-  height: 15vh;
- 
-  margin-top: 100px;
+  height: 20vh;
+  margin-top: 70px;
   background-color: #cecdcd;
   opacity: 0.7;
   text-align: center;
@@ -50,70 +48,69 @@ img{
 
 .menu {
   width: 40vw;
-  height: 45vh;
-  margin-top: 100px;
-font-size: 100px;
+  height: 70vh;
+  margin-top: 90px;
+  font-size: 25px;
   background-color: #cecdcd;
   opacity: 0.8;
-display: flex;
-flex-direction: column;
-align-items: center;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 label {
- 
   background-color: #1a1919;
   color: aliceblue;
   text-align: left;
-margin-bottom: -35px;
+  margin-bottom: -32px;
   display: block;
-font-size: 50px;
-
+  font-size: 12px;
 }
 input {
   width: 100%;
-  height: 140px;
+  height: 40px;
   margin: 2rem auto;
-  font-size: 50px;
-font-style: italic;
-padding-left: 20px;
+  font-size: 15px;
+  font-style: italic;
+  padding-left: 20px;
 }
 button {
-  background-color:#1a1919 ;
+  background-color: #1a1919;
   width: 100%;
-  height: 10rem;
+  height: 2rem;
   display: block;
-  font-size: 50px;
+  font-size: 15px;
   color: white;
   font-style: italic;
 }
 h1 {
   padding-top: 25px;
-  font-size: 150px;
 }
 .text {
-  font-size: 80px;
-  padding-top: 65px;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 h2 {
- margin-bottom: 90px;
-  margin-top: 70px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
-.get{
-    padding-bottom: 90px;
-    font-size: 90px;
-    text-align: left;
+.get {
+  padding-bottom: 30px;
+  font-size: 30px;
+  text-align: left;
 }
-form{
-        width: 40%;
-        margin-top: 2%;
-       }
-       footer{
-           font-size:70px;
-           height: 5%;
-           color: aliceblue;
-           opacity: 0.2;
-           text-align: center;
-       }
+form {
+  width: 40%;
+  margin-top: 2%;
+}
+
+footer {
+  font-size: 13px;
+  height: 5%;
+  color: aliceblue;
+  opacity: .3;
+  text-align: center;
+  padding-top: 15px;
+}
